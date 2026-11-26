@@ -1,2 +1,73 @@
-<h1> 你好 </h1>
-<h2> 這是我的網頁 </h2>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的個人網頁 | GitHub Pages</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="logo">MyPortfolio</a>
+      <nav>
+        <a href="#about">關於我</a>
+        <a href="#projects">作品練習</a>
+        <a href="#contact">聯絡方式</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <span class="badge">歡迎來到我的網站</span>
+      <h1>嗨！我是 <span class="highlight">你的名字</span></h1>
+      <p>正在學習網頁開發與 Git 版本控制，這是我的第一個 GitHub Pages 網站。</p>
+      <a href="#projects" class="btn">查看我的作品</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>關於我</h2>
+      <p class="section-desc">
+        我對前端設計與程式開發充滿熱情，目前正在熟悉 HTML、CSS 以及使用 Git 與 GitHub 管理專案流程。
+      </p>
+      <div class="skills">
+        <span class="skill-tag">HTML5</span>
+        <span class="skill-tag">CSS3</span>
+        <span class="skill-tag">Git / GitHub</span>
+        <span class="skill-tag">VS Code</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section bg-light">
+    <div class="container">
+      <h2>作品與練習</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Git 版本控制練習</h3>
+          <p>學會使用 init、add、commit 與 push，將本地程式碼同步到 GitHub 遠端儲存庫。</p>
+        </div>
+        <div class="card">
+          <h3>個人形象網頁</h3>
+          <p>使用純 HTML 與 CSS 打造響應式版面，並透過 GitHub Pages 免費部署上線。</p>
+        </div>
+        <div class="card">
+          <h3>未來專案規劃</h3>
+          <p>預計加入 JavaScript 互動效果，持續擴充更多實用的網頁小工具。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <div class="container">
+      <p>想交流或合作嗎？歡迎透過 GitHub 或 Email 聯繫我！</p>
+      <p class="copyright">&copy; 2026 你的名字. Built with GitHub Pages.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
